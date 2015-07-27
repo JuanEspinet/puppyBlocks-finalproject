@@ -173,11 +173,30 @@ h2:before {
     align-content: center;
     width: 100%;
 }
+/* Styling for the Offerings tables*/
 
+table {
+width: 600px;
+padding: 7px;
 
+}
 
+caption {
+	text-align: left;
+	font-size: 20px;
+	margin-top: 20px;
+}
 
+td {
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+}
 
+/*even so I classified this part doesn't target my class*/
+.Prices {
+	border-color: grey;
+}
 
 
 /* ==========================================================================
