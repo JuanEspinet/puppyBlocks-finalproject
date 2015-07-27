@@ -99,8 +99,6 @@ textarea {
   justify-content: flex-start;
   padding-left: 1rem;
 }
-
-
 header {
     background: -webkit-linear-gradient(35deg, #BFB88C, #7F7B5D);
     background: linear-gradient(55deg,#BFB88C,#7F7B5D);
@@ -111,6 +109,16 @@ header {
     top: 0;
     left: 0;
     right: 0;
+}
+h1 {
+    font-size: 1.5em;
+    margin-top: .2em;
+}
+nav li {
+    display: inline-block;
+}
+.mainBodyContent {
+    padding-top: 3.5em;
 }
 .card {
   border: 1px solid black;
@@ -130,17 +138,14 @@ header {
     margin: 0 0 0 0;
 }
 
-.justifyCenter {
-    justify-content: center;
-}
-
+/*
 .headerNav {
     align-self: flex-end;
     -webkit-box-flex: 1;
     -webkit-flex: 100%;
     -ms-flex: 100%;
     flex: 100%;
-}
+}*/
 /* Section below allows dynamic resizing and rearrangement of header items */
 .h1FlexBox {
     display: -webkit-box;
@@ -163,7 +168,20 @@ h2:before {
     margin-top: -3.20em;
     visibility: hidden;
 }
-
+.flexCenter {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    width: 100%;
+}
 
 
 
@@ -253,7 +271,20 @@ h2:before {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
+@media screen and (max-width: 815px) {
+    h1 {
+        font-size: 1em;
+        margin-bottom: 0;
+    }
+    .headerLinkFloat {
+        float: none;
+        display: inline-block;
+        margin-top: 0;
+    }
+    nav ul {
+        padding: 0;
+    }
+}
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
