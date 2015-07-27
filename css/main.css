@@ -127,15 +127,6 @@ nav li {
   width: 20rem;
   padding: 0 1em 0 1em;
   /*margin-top: 1em;*/
-
-}
-
-.noPadding {
-    padding: 0 0 0 0;
-}
-
-.noMargin {
-    margin: 0 0 0 0;
 }
 
 /*
@@ -182,9 +173,6 @@ h2:before {
     align-content: center;
     width: 100%;
 }
-
-
-
 
 
 
@@ -347,11 +335,9 @@ h2:before {
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
 
-    thead {
-        display: table-header-group;
-    }
+   
 
-    tr,
+    
     img {
         page-break-inside: avoid;
     }
