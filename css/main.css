@@ -95,17 +95,40 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*Yulya's Offerings tables*/
+caption {
+    font-size: 25px;
+    text-align: left;
+    color: lightblue;
+}
+table{
+display: table;
+font-size: 1em;
+
+}
+
+td {border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin-left: 30px;
+}
 
 
+h3{ margin-top: 5px;
+margin-bottom: 5px;}
 
+.Prices{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+h3{font-size: 30px;}
 
-
-
-
-
-
-
-
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 
 
