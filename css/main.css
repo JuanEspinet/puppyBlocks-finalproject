@@ -99,19 +99,42 @@ textarea {
   justify-content: center;
 }
 header {
-    background: -webkit-linear-gradient(35deg, #BFB88C, #7F7B5D);
-    background: linear-gradient(55deg,#BFB88C,#7F7B5D);
+    background: -webkit-linear-gradient(35deg, #5E6FE8, #A574FF);
+    background: linear-gradient(55deg,#5E6FE8,#A574FF);
     position: fixed;
     width: 100%;
-    white-space: nowrap;
     height: 5em;
     top: 0;
     left: 0;
     right: 0;
 }
+footer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+header a {
+  background-color: #4796FF;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px black;
+  color: black;
+  font-size: .7em;
+  padding: .4rem;
+  text-decoration: none;
+}
 h1 {
     font-size: 1.5em;
     margin-top: .2em;
+    margin-bottom:0;
 }
 h2{
   text-align: center;
@@ -120,7 +143,7 @@ nav li {
     display: inline-block;
 }
 .mainBodyContent {
-    padding-top: 3.5em;
+    padding-top: 5em;
 }
 .card {
   border: 1px solid black;
@@ -199,6 +222,14 @@ td {
 .Prices {
 	border-color: grey;
 }
+
+.noPadding {
+    padding: 0 0 0 0;
+}
+.noMargin { 
+    margin: 0 0 0 0;
+}
+
 
 
 /* ==========================================================================
