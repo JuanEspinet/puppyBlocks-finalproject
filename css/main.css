@@ -236,7 +236,9 @@ td {
 
 /*This is for the tables in Do's staff section*/
 #staffBio table tr td{
-  border: 0;
+  /*display: flex;*/
+  border-style: hidden;
+  padding-top: 2rem;
   width: 250px;
 }
 
@@ -332,6 +334,12 @@ td {
     }
     nav ul {
         padding: 0;
+    }
+    #staffBio table tr td{
+      display: flex;
+    }
+    #staffBio table{
+      border-style: hidden;
     }
 }
 @media only screen and (min-width: 35em) {
