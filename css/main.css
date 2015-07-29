@@ -15,6 +15,11 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+body{
+  font-family: 'Open Sans', sans-serif;
+  background: -webkit-linear-gradient(35deg, #959062, #D4CD8B);
+  background: linear-gradient(55deg,#959062,#D4CD8B);
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -107,8 +112,8 @@ textarea {
 
 
 header {
-    background: -webkit-linear-gradient(35deg, #5E6FE8, #A574FF);
-    background: linear-gradient(55deg,#5E6FE8,#A574FF);
+    background: -webkit-linear-gradient(35deg, #959062, #D4CD8B);
+    background: linear-gradient(55deg,#959062,#D4CD8B);
     position: fixed;
     width: 100%;
     height: 5em;
@@ -117,12 +122,27 @@ header {
     right: 0;
 }
 
+footer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    color: white;
+}
+
 header a {
-  background-color: #4796FF;
+  background-color: #338899;
   border: 0;
   border-radius: 8px;
   box-shadow: 2px 2px 2px black;
-  color: black;
+  color: white;
   font-size: .7em;
   padding: .4rem;
   text-decoration: none;
@@ -132,6 +152,25 @@ h1 {
     font-size: 1.5em;
     margin-top: .2em;
     margin-bottom:0;
+}
+
+h2{
+  text-align: center;
+}
+nav li {
+    display: inline-block;
+}
+.mainBodyContent {
+    padding-top: 5em;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #338899;
+  width: 80%;
+  padding: 1em;
+  color: white;
+  /*margin-top: 1em;*/
 }
 
 /* Section below allows dynamic resizing and rearrangement of header items */
@@ -156,7 +195,7 @@ nav li {
 .card {
   border: 1px solid black;
   border-radius: 5px;
-  background-color: ivory;
+  background-color: #338899;
   width: 80%;
   padding: 1em;
   /*margin-top: 1em;*/
@@ -355,8 +394,8 @@ footer {
 
 @media screen and (max-width:600px) {
     header {
-        background: -webkit-linear-gradient(35deg, #5E6FE8, #A574FF);
-        background: linear-gradient(55deg,#5E6FE8,#A574FF);
+        background: -webkit-linear-gradient(35deg, #959062, #D4CD8B);
+        background: linear-gradient(55deg,#959062,#D4CD8B);
         position: fixed;
         width: 100%;
         height: 8em;
