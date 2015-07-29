@@ -335,8 +335,8 @@ td {
     nav ul {
         padding: 0;
     }
-    #staffBio table tr td{
-      display: flex;
+    table tr td{
+      display: block;
     }
     #staffBio table{
       border-style: hidden;
