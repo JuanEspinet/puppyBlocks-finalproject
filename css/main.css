@@ -201,8 +201,11 @@ h2:before {
 /* Styling for the Offerings tables*/
 
 table {
-width: 600px;
-padding: 7px;
+margin-left: auto;
+margin-right: auto;
+border-style: solid;
+border-width: 1px;
+width: 83%;
 
 }
 
@@ -212,24 +215,32 @@ caption {
 	margin-top: 20px;
 }
 
-td {
-	padding: 5px;
-	border-style: solid;
-	border-width: 1px;
+
+table.Prices td {
+	border:1px solid;
+	text-align: center;
 }
 
-/*even so I classified this part doesn't target my class*/
-.Prices {
-	border-color: grey;
+
+td {
+	padding:5px;
 }
 
 .noPadding {
     padding: 0 0 0 0;
 }
-.noMargin { 
+.noMargin {
     margin: 0 0 0 0;
 }
 
+
+/*This is for the tables in Do's staff section*/
+#staffBio table tr td{
+  /*display: flex;*/
+  border-style: hidden;
+  padding-top: 2rem;
+  width: 250px;
+}
 
 
 /* ==========================================================================
@@ -323,6 +334,12 @@ td {
     }
     nav ul {
         padding: 0;
+    }
+    table tr td{
+      display: block;
+    }
+    #staffBio table{
+      border-style: hidden;
     }
 }
 @media only screen and (min-width: 35em) {
