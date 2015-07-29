@@ -391,7 +391,7 @@ footer {
     #staffBio table{
       border-style: hidden;
     }
-
+}
 @media screen and (max-width:600px) {
     header {
         background: -webkit-linear-gradient(35deg, #959062, #D4CD8B);
@@ -415,7 +415,6 @@ footer {
     }
     table tr td{
       display: block;
-}
 }
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
