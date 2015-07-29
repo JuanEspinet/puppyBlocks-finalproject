@@ -15,6 +15,11 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+body{
+  font-family: 'Open Sans', sans-serif;
+  background: -webkit-linear-gradient(35deg, #959062, #D4CD8B);
+  background: linear-gradient(55deg,#959062,#D4CD8B);
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -99,8 +104,8 @@ textarea {
   justify-content: center;
 }
 header {
-    background: -webkit-linear-gradient(35deg, #5E6FE8, #A574FF);
-    background: linear-gradient(55deg,#5E6FE8,#A574FF);
+    background: -webkit-linear-gradient(35deg, #959062, #D4CD8B);
+    background: linear-gradient(55deg,#959062,#D4CD8B);
     position: fixed;
     width: 100%;
     height: 5em;
