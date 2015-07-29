@@ -351,8 +351,8 @@ td {
 
 @media screen and (max-width:600px) {
     header {
-        background: -webkit-linear-gradient(35deg, #5E6FE8, #A574FF);
-        background: linear-gradient(55deg,#5E6FE8,#A574FF);
+        background: -webkit-linear-gradient(35deg, #959062, #D4CD8B);
+        background: linear-gradient(55deg,#959062,#D4CD8B);
         position: fixed;
         width: 100%;
         height: 8em;
