@@ -356,6 +356,29 @@ footer {
     #staffBio table{
       border-style: hidden;
     }
+
+@media screen and (max-width:600px) {
+    header {
+        background: -webkit-linear-gradient(35deg, #5E6FE8, #A574FF);
+        background: linear-gradient(55deg,#5E6FE8,#A574FF);
+        position: fixed;
+        width: 100%;
+        height: 8em;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    h2:before {
+      display: block;
+      content: "";
+      height: 5.2em;
+      margin-top: -5.2em;
+      visibility: hidden;
+    }
+    .mainBodyContent {
+      padding-top: 8em;
+    }
+}
 }
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
