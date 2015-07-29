@@ -99,10 +99,18 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.flexContainer{
-  display: flex;
-  justify-content: center;
-}
+
+/* >>>>>>>>>HEADER<<<<<<<<< */
+/*
+.headerNav {
+    align-self: flex-end;
+    -webkit-box-flex: 1;
+    -webkit-flex: 100%;
+    -ms-flex: 100%;
+    flex: 100%;
+}*/
+
+
 header {
     background: -webkit-linear-gradient(35deg, #959062, #D4CD8B);
     background: linear-gradient(55deg,#959062,#D4CD8B);
@@ -113,6 +121,7 @@ header {
     left: 0;
     right: 0;
 }
+
 footer {
     display: -webkit-box;
     display: -webkit-flex;
@@ -127,6 +136,7 @@ footer {
     align-content: center;
     color: white;
 }
+
 header a {
   background-color: #338899;
   border: 0;
@@ -137,11 +147,13 @@ header a {
   padding: .4rem;
   text-decoration: none;
 }
+
 h1 {
     font-size: 1.5em;
     margin-top: .2em;
     margin-bottom:0;
 }
+
 h2{
   text-align: center;
 }
@@ -161,14 +173,6 @@ nav li {
   /*margin-top: 1em;*/
 }
 
-/*
-.headerNav {
-    align-self: flex-end;
-    -webkit-box-flex: 1;
-    -webkit-flex: 100%;
-    -ms-flex: 100%;
-    flex: 100%;
-}*/
 /* Section below allows dynamic resizing and rearrangement of header items */
 .h1FlexBox {
     display: -webkit-box;
@@ -183,6 +187,34 @@ nav li {
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
+
+nav li {
+    display: inline-block;
+}
+/* >>>>>>>>DIV MAINBODY CONTENT<<<<<<<< */
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: ivory;
+  width: 80%;
+  padding: 1em;
+  /*margin-top: 1em;*/
+}
+
+h2{
+  text-align: center;
+}
+
+.flexContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.mainBodyContent {
+    padding-top: 5em;
+}
+
+
 /*Prevent fixed header from overlapping h2 elements and section content when anchor links are clicked*/
 h2:before {
     display: block;
@@ -240,7 +272,6 @@ td {
     margin: 0 0 0 0;
 }
 
-
 /*This is for the tables in Do's staff section*/
 #staffBio table tr td{
   /*display: flex;*/
@@ -249,6 +280,21 @@ td {
   width: 250px;
 }
 
+/* >>>>>>>>>FOOTER<<<<<<<< */
+
+footer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
 
 /* ==========================================================================
    Helper classes
@@ -342,9 +388,6 @@ td {
     nav ul {
         padding: 0;
     }
-    table tr td{
-      display: block;
-    }
     #staffBio table{
       border-style: hidden;
     }
@@ -370,6 +413,8 @@ td {
     .mainBodyContent {
       padding-top: 8em;
     }
+    table tr td{
+      display: block;
 }
 }
 @media only screen and (min-width: 35em) {
