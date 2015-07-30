@@ -215,7 +215,11 @@ h2{
 }
 
 .flexContainer{
+  display: -webkit-flex;
   display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: center;
+  -ms-flex-pack: justify;
   justify-content: center;
 }
 
@@ -435,14 +439,28 @@ footer {
     }
     table tr td{
       display: block;
+    }
+    .h1FlexBox{
+      height: 5em;
+      justify-content: center;
+    }
+    .headerlogo{
+      height:90px; width: 130px;
+    }
+    table{
+      text-align: center;
+    }
+    caption{
+      text-align: center;
+    }
 }
-.h1FlexBox{
-  height: 5em;
-  justify-content: center;
+@media screen and (max-width:360px) {
+  header a{
+    font-size: .6em;
+  }
+
 }
-.headerlogo{
-  height:90px; width: 130px;
-}
+
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
