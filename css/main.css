@@ -190,7 +190,7 @@ nav li {
     background: -webkit-linear-gradient(35deg, #959062, #D4CD8B);
     background: linear-gradient(55deg,#959062,#D4CD8B);
     width: 100%;
-    height: 5em;
+    height: 10em;
     top: 0;
     left: 0;
     right: 0;
@@ -220,7 +220,7 @@ h2{
 }
 
 .mainBodyContent {
-    padding-top: 5em;
+    padding-top: 10em;
 }
 
 
@@ -228,8 +228,8 @@ h2{
 h2:before {
     display: block;
     content: "";
-    height: 3.70em;
-    margin-top: -3.20em;
+    height: 7.40em;
+    margin-top: -6.40em;
     visibility: hidden;
 }
 .flexCenter {
@@ -384,7 +384,7 @@ footer {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-@media screen and (max-width: 815px) {
+@media screen and (max-width: 830px) {
     h1 {
         font-size: 1em;
         margin-bottom: 0;
@@ -400,8 +400,19 @@ footer {
     #staffBio table{
       border-style: hidden;
     }
+    .h1FlexBox{
+      height: 5em;
+    }
+    .headerlogo{
+      height:80px; width: 130px;
+    }
+    .mainBodyContent{
+      padding-top: 5em;
+    }
+
+
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:640px) {
     header {
         background: -webkit-linear-gradient(35deg, #959062, #D4CD8B);
         background: linear-gradient(55deg,#959062,#D4CD8B);
@@ -424,6 +435,13 @@ footer {
     }
     table tr td{
       display: block;
+}
+.h1FlexBox{
+  height: 5em;
+  justify-content: center;
+}
+.headerlogo{
+  height:90px; width: 130px;
 }
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
