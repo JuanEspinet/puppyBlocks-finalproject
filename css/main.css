@@ -122,7 +122,7 @@ header {
     right: 0;
 }
 
-footer {
+/*footer {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -136,7 +136,7 @@ footer {
     align-content: center;
     color: white;
 }
-
+*/
 header a {
   background-color: #338899;
   border: 0;
@@ -305,7 +305,7 @@ td {
 
 /* >>>>>>>>>FOOTER<<<<<<<< */
 
-footer {
+.footerCopy {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -317,6 +317,13 @@ footer {
     -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center;
+    color: white;
+}
+.footerSocial {
+  float: right;
+  margin-top: -2.5em;
+  margin-bottom: 0;
+  margin-right: 0;
 }
 
 /* ==========================================================================
@@ -466,12 +473,24 @@ footer {
     caption{
       text-align: center;
     }
+    .footerCopy {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-align-content: flex-start;
+        -ms-flex-line-pack: start;
+            align-content: flex-start;
+    }
 }
 @media screen and (max-width:360px) {
   header a{
     font-size: .6em;
   }
-
 }
 
 @media only screen and (min-width: 35em) {
