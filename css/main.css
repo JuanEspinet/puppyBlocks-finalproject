@@ -473,12 +473,24 @@ td {
     caption{
       text-align: center;
     }
+    .footerCopy {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-align-content: flex-start;
+        -ms-flex-line-pack: start;
+            align-content: flex-start;
+    }
 }
 @media screen and (max-width:360px) {
   header a{
     font-size: .6em;
   }
-
 }
 
 @media only screen and (min-width: 35em) {
