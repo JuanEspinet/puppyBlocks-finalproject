@@ -264,7 +264,7 @@ h2:before {
 table {
 margin-left: auto;
 margin-right: auto;
-border-style: solid;
+border-style: none;
 border-width: 1px;
 width: 83%;
 
